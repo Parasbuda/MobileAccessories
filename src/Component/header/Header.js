@@ -1,13 +1,15 @@
 import React from "react"
 import "./Header.css"
 import logo from "../../assets/logo_transparent.png"
-
+import {Link} from "react-router-dom"
 const Header=()=>{
     return(
        <React.Fragment>
            <nav className="navbar navbar-expand-lg navbar-dark ">
              <div className="container-fluid">
-  <div className="navbar-brand"><a  href="#"><img src={logo} alt="logo" className="logo"/></a></div>
+  <div className="navbar-brand">
+    <Link to="/"><img src={logo} alt="logo" className="logo"/></Link>
+    </div>
   <span className="navbar-text">Merachi Tech</span>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
@@ -20,20 +22,20 @@ const Header=()=>{
                         <div className="container-fluid ">
                             <div className="row ">
                                 <div className=" col">
-                               <a href="#" > <img className="item" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/collections/dropdown-TWS_180x.png?v=1579871992" alt="1st"/></a>
+                                <Link to="/shop"> <img className="item" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/collections/dropdown-TWS_180x.png?v=1579871992" alt="1st"/></Link>
                    
-                   <a  href="#"><img className="item" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/collections/Rectangle271_180x.png?v=1579871956" alt="2nd"/></a>
+                   <Link to="/shop"><img className="item" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/collections/Rectangle271_180x.png?v=1579871956" alt="2nd"/></Link>
                    
-                   <a  href="#"><img className="item" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/collections/latest_background_b4f773ca-05d9-41cc-a7cf-3104993ae895_180x.png?v=1579871975" alt="3rd"/></a>
+                   <Link to="/shop"><img className="item" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/collections/latest_background_b4f773ca-05d9-41cc-a7cf-3104993ae895_180x.png?v=1579871975" alt="3rd"/></Link>
                    
-                   <a  href="#"><img className="item" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/collections/box-5_180x.png?v=1579871901" alt="4th"/></a>
+                   <Link to="/shop"><img className="item" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/collections/box-5_180x.png?v=1579871901" alt="4th"/></Link>
                   
-                   <a  href="#"><img className="item" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/collections/Collections_5baef8f1-a67a-40a5-a537-4258c6caae6a_180x.png?v=1579872011" alt="5th"/></a>
+                   <Link to="/shop"><img className="item" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/collections/Collections_5baef8f1-a67a-40a5-a537-4258c6caae6a_180x.png?v=1579872011" alt="5th"/></Link>
                    
-                   <a href="#"><img className="item" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/collections/dropdown-limited-edition_180x.png?v=1579872074" alt="6th"/></a>
+                   <Link to="/shop"><img className="item" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/collections/dropdown-limited-edition_180x.png?v=1579872074" alt="6th"/></Link>
                  
                   
-                   <a  href="#"><img className="item" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/collections/bence-boros-253214-unsplash_180x.jpg?v=1579872033" alt="7th"/></a>
+                   <Link to="/shop"><img className="item" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/collections/bence-boros-253214-unsplash_180x.jpg?v=1579872033" alt="7th"/></Link>
                
                  
                    

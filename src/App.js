@@ -10,6 +10,7 @@ import Header from "./Component/header/Header"
 import About from "./Component/Pages/About/About"
 import Contact from "./Component/Pages/Contact/Contact"
 import Blog from "./Component/Pages/Blog/Blog"
+import Shop from "./Component/Pages/Shop/Shop"
 class App extends React.Component {
   render(){
   return (
@@ -20,6 +21,7 @@ class App extends React.Component {
       <Route path="/about" component={About}/>
       <Route path="/contact" component={Contact}/>
       <Route path="/blog" component={Blog}/>
+      <Route path="/shop" component={Shop}/>
       </Switch>
     </div>
   );
