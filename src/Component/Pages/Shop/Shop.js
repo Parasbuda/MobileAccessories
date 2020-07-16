@@ -17,7 +17,6 @@ export default class Shop extends Component {
                         
                     )
                 }
-                <ShopPreview/>
                </div>
         )
     }
