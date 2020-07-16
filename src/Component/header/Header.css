@@ -1,0 +1,36 @@
+.navbar{
+  background-color:#320000;
+}
+.logo{
+  width:60px;
+  height: auto;
+}
+
+  .nav-link{
+    border-right: 1.5px solid red;
+    padding: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+   
+    
+  }
+  .last{
+    border-right: 0;
+  }
+  .top-auto{
+    top: 100px;
+    z-index: 0;
+}
+.mega{
+  border:1px solid #320000;
+  background: grey;
+  margin:0 !important;
+  padding: 0 !important;;
+}
+
+.item{
+  padding: 5px;
+  
+}
+
+ 
