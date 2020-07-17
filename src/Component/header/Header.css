@@ -22,14 +22,16 @@
     z-index: 0;
 }
 .mega{
+  
   border:1px solid #320000;
-  background: grey;
+  background:#320000;
   margin:0 !important;
-  padding: 0 !important;;
+  padding: 0 !important;
+  overflow: hidden;
 }
 
 .item{
-  padding: 5px;
+  padding: 4px;
   
 }
 
