@@ -28,6 +28,7 @@
   margin:0 !important;
   padding: 0 !important;
   overflow: hidden;
+  z-index: 1;
 }
 
 .item{
