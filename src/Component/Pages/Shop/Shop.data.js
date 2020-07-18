@@ -149,6 +149,18 @@
         name: 'Tan Trench',
         imageUrl: 'https://i.ibb.co/M6hHc3F/brown-trench.png',
         price: 185
+      },
+      {
+        id: 23,
+        name: 'Tan Trench',
+        imageUrl: 'https://i.ibb.co/M6hHc3F/brown-trench.png',
+        price: 185
+      },
+      {
+        id: 24,
+        name: 'Tan Trench',
+        imageUrl: 'https://i.ibb.co/M6hHc3F/brown-trench.png',
+        price: 185
       }
     ]
   },
@@ -158,43 +170,43 @@
     routeName: 'womens',
     items: [
       {
-        id: 23,
+        id: 25,
         name: 'Blue Tanktop',
         imageUrl: 'https://i.ibb.co/7CQVJNm/blue-tank.png',
         price: 25
       },
       {
-        id: 24,
+        id: 26,
         name: 'Floral Blouse',
         imageUrl: 'https://i.ibb.co/4W2DGKm/floral-blouse.png',
         price: 20
       },
       {
-        id: 25,
+        id: 27,
         name: 'Floral Dress',
         imageUrl: 'https://i.ibb.co/KV18Ysr/floral-skirt.png',
         price: 80
       },
       {
-        id: 26,
+        id: 28,
         name: 'Red Dots Dress',
         imageUrl: 'https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png',
         price: 80
       },
       {
-        id: 27,
+        id: 29,
         name: 'Striped Sweater',
         imageUrl: 'https://i.ibb.co/KmSkMbH/striped-sweater.png',
         price: 45
       },
       {
-        id: 28,
+        id: 30,
         name: 'Yellow Track Suit',
         imageUrl: 'https://i.ibb.co/v1cvwNf/yellow-track-suit.png',
         price: 135
       },
       {
-        id: 29,
+        id: 31,
         name: 'White Blouse',
         imageUrl: 'https://i.ibb.co/qBcrsJg/white-vest.png',
         price: 20
@@ -207,37 +219,43 @@
     routeName: 'mens',
     items: [
       {
-        id: 30,
+        id: 32,
         name: 'Camo Down Vest',
         imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
         price: 325
       },
       {
-        id: 31,
+        id: 33,
         name: 'Floral T-shirt',
         imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
         price: 20
       },
       {
-        id: 32,
+        id: 34,
         name: 'Black & White Longsleeve',
         imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
         price: 25
       },
       {
-        id: 33,
+        id: 35,
         name: 'Pink T-shirt',
         imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
         price: 25
       },
       {
-        id: 34,
+        id: 36,
         name: 'Jean Long Sleeve',
         imageUrl: 'https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png',
         price: 40
       },
       {
-        id: 35,
+        id: 37,
+        name: 'Burgundy T-shirt',
+        imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
+        price: 25
+      },
+      {
+        id: 38,
         name: 'Burgundy T-shirt',
         imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
         price: 25
@@ -250,37 +268,43 @@
     routeName: 'mens',
     items: [
       {
-        id: 36,
+        id: 39,
         name: 'Camo Down Vest',
         imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
         price: 325
       },
       {
-        id: 37,
+        id:40,
         name: 'Floral T-shirt',
         imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
         price: 20
       },
       {
-        id: 38,
+        id: 41,
         name: 'Black & White Longsleeve',
         imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
         price: 25
       },
       {
-        id: 39,
+        id: 42,
         name: 'Pink T-shirt',
         imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
         price: 25
       },
       {
-        id: 40,
+        id: 43,
         name: 'Jean Long Sleeve',
         imageUrl: 'https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png',
         price: 40
       },
       {
-        id: 41,
+        id: 44,
+        name: 'Burgundy T-shirt',
+        imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
+        price: 25
+      },
+      {
+        id: 45,
         name: 'Burgundy T-shirt',
         imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
         price: 25
@@ -293,37 +317,43 @@
     routeName: 'mens',
     items: [
       {
-        id: 42,
+        id: 46,
         name: 'Camo Down Vest',
         imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
         price: 325
       },
       {
-        id: 43,
+        id: 47,
         name: 'Floral T-shirt',
         imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
         price: 20
       },
       {
-        id: 44,
+        id: 48,
         name: 'Black & White Longsleeve',
         imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
         price: 25
       },
       {
-        id: 45,
+        id: 49,
         name: 'Pink T-shirt',
         imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
         price: 25
       },
       {
-        id: 46,
+        id: 50,
         name: 'Jean Long Sleeve',
         imageUrl: 'https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png',
         price: 40
       },
       {
-        id: 47,
+        id: 51,
+        name: 'Burgundy T-shirt',
+        imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
+        price: 25
+      },
+      {
+        id: 52,
         name: 'Burgundy T-shirt',
         imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
         price: 25

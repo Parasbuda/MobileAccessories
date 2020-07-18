@@ -3,23 +3,24 @@ import "./ShopItem.css"
 
 
 const ShopItem=({item})=>{
-    const {id,name,price,imageUrl}=item
+    const {name,price,imageUrl}=item
     return(
-      
-        <div className="col-md-3">
-            <div className="card shadow rounded" >
+      <React.Fragment>
+        <div className="col-md-4 col-lg-3 col-sm-6 ">
+            <div className="card shadow rounded  mb-5" >
                 
               
                     <img  src={imageUrl} alt="product"   />
                    
-                <div className="card-footer ">
-                <span>{name}</span>
-                <span className="price">{price}</span>
+                <div className="card-footer pl-5 ">
+               {name}
+                <span className="pl-5">${price}</span>
                 </div>
             </div>
         </div>
-       
-     
+        
+      
+            </React.Fragment>
         
     )
 }

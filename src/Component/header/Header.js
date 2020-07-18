@@ -1,6 +1,7 @@
 import React from "react"
 import "./Header.css"
 import logo from "../../assets/logo_transparent.png"
+import cart from "../../assets/cart.svg"
 import {Link} from "react-router-dom"
 const Header=()=>{
     return(
@@ -49,20 +50,20 @@ const Header=()=>{
      
       
       <li className="nav-item ">
-        <a className="nav-link" href="#">ABOUT US </a>
+        <Link className="nav-link" to="/about">ABOUT US </Link>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">CONTACT</a>
+        <Link className="nav-link" to="/contact">CONTACT</Link>
       </li>
       
       <li className="nav-item">
-      <a className="nav-link last" href="#">BLOG</a>
+      <Link className="nav-link last" to="/blog">BLOG</Link>
       </li>
     </ul>
     <form className="form-inline my-2 my-lg-0">
       <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
-      <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        
+      <button className="btn  my-2 my-sm-0" type="submit"><i className="fa fa-user"/></button>
+       <img src={cart} alt="cart" width="20px"/> 
       
     </form>
   </div>
