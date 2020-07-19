@@ -4,6 +4,7 @@ import logo from "../../assets/logo_transparent.png"
 
 import {Link} from "react-router-dom"
 import CartIcon from "../CartIcon/CartIcon"
+import CartDropdown from "../cartdropdown/CartDropdown"
 const Header=()=>{
     return(
        <React.Fragment>
@@ -65,7 +66,7 @@ const Header=()=>{
       <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
       <i className="fa fa-user " />
      <CartIcon/>
-      
+      <CartDropdown/>
     </form>
   </div>
   </div>

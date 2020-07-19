@@ -3,6 +3,9 @@ import "./ShopPreview.css"
 import ShopItem from "../ShopItem/ShopItem"
 import addicon from "../../assets/addicon.png"
 import {withRouter} from"react-router-dom"
+
+
+
 const ShopPreview=({title,items,history})=> {
     
     return (

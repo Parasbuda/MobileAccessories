@@ -7,10 +7,10 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import {Route,Switch} from "react-router-dom"
 
 import Header from "./Component/header/Header"
-import About from "./Component/Pages/About/About"
-import Contact from "./Component/Pages/Contact/Contact"
-import Blog from "./Component/Pages/Blog/Blog"
-import Shop from "./Component/Pages/Shop/Shop"
+import About from "./Pages/About/About"
+import Contact from "./Pages/Contact/Contact"
+import Blog from "./Pages/Blog/Blog"
+import Shop from "./Pages/Shop/Shop"
 class App extends React.Component {
   render(){
   return (

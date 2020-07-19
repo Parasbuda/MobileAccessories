@@ -1,0 +1,20 @@
+.custom-button{
+    letter-spacing: 0.5px;
+    line-height: 50px;
+    padding: 0 35px 0 35px;
+    font-size: 15px;
+    background-color: maroon;
+    color: white;
+    text-transform: capitalize;
+    font-weight: bolder;
+    border:1px solid maroon;
+    cursor: pointer;
+    border-radius: 15px;
+
+}
+
+.custom-button:hover{
+    background-color: white;
+    color:maroon
+   
+}

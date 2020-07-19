@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import ShopData from "./Shop.data"
-import ShopPreview from "../../ShopPreview/ShopPreview"
+import ShopPreview from "../../Component/ShopPreview/ShopPreview"
 
 
 export default class Shop extends Component {
