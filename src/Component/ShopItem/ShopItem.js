@@ -7,10 +7,10 @@ const ShopItem=({item})=>{
     return(
       <React.Fragment>
         <div className="col-md-4 col-lg-3 col-sm-6 ">
-            <div className="card shadow rounded  mb-5" >
+            <div className="card shadow rounded  mb-5 " >
                 
               
-                    <img  src={imageUrl} alt="product"   />
+                    <img  src={imageUrl} alt="product"/>
                    
                 <div className="card-footer pl-5 ">
                {name}

@@ -1,8 +1,9 @@
 import React from "react"
 import "./Header.css"
 import logo from "../../assets/logo_transparent.png"
-import cart from "../../assets/cart.svg"
+
 import {Link} from "react-router-dom"
+import CartIcon from "../CartIcon/CartIcon"
 const Header=()=>{
     return(
        <React.Fragment>
@@ -18,7 +19,7 @@ const Header=()=>{
 
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav mr-auto ml-auto">
-    <li className="nav-item dropdown position-static"><a href="#" className="nav-link dropdown-toggle" data-toggle="dropdown" data-target="#">SHOP</a>
+    <li className="nav-item dropdown position-static"><Link to="/shop" className="nav-link dropdown-toggle" data-toggle="dropdown" data-target="#">SHOP</Link>
                     <div className="dropdown-menu top-auto mega">
                         <div className="container-fluid ">
                             <div className="row ">
@@ -62,8 +63,8 @@ const Header=()=>{
     </ul>
     <form className="form-inline my-2 my-lg-0">
       <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
-      <button className="btn  my-2 my-sm-0" type="submit"><i className="fa fa-user"/></button>
-       <img src={cart} alt="cart" width="20px"/> 
+      <i className="fa fa-user " />
+     <CartIcon/>
       
     </form>
   </div>
