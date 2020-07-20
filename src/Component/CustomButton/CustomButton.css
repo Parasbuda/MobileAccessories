@@ -3,18 +3,33 @@
     line-height: 50px;
     padding: 0 35px 0 35px;
     font-size: 15px;
-    background-color: maroon;
-    color: white;
+    background-color: white;
+    color:maroon;
     text-transform: capitalize;
     font-weight: bolder;
     border:1px solid maroon;
     cursor: pointer;
     border-radius: 15px;
+    display: flex;
+    justify-content: center;
 
 }
 
 .custom-button:hover{
+    
+    background-color: maroon;
+    
+    color: white;
+}
+.inverted{
+   
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+   
+}
+.inverted:hover{
     background-color: white;
-    color:maroon
+    color: black;
    
 }

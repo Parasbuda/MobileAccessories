@@ -1,6 +1,6 @@
 import React from "react"
 import "./ShopItem.css"
-
+import CustomButton from "../CustomButton/CustomButton"
 
 const ShopItem=({item})=>{
     const {name,price,imageUrl}=item
@@ -12,11 +12,13 @@ const ShopItem=({item})=>{
               
                     <img  src={imageUrl} alt="product"/>
                    
-                <div className="card-footer pl-5 ">
-               {name}
+                <div className="card-footer  justify-content-between d-flex ">
+               <span className="pl-2">{name}</span>
                 <span className="pl-5">${price}</span>
                 </div>
+                <CustomButton className="inverted" inverted>ADD TO CART </CustomButton>
             </div>
+            
         </div>
         
       

@@ -5,7 +5,9 @@ import logo from "../../assets/logo_transparent.png"
 import {Link} from "react-router-dom"
 import CartIcon from "../CartIcon/CartIcon"
 import CartDropdown from "../cartdropdown/CartDropdown"
-const Header=()=>{
+import {connect} from "react-redux"
+const Header=({hidden})=>{
+  console.log(hidden)
     return(
        <React.Fragment>
            <nav className="navbar navbar-expand-lg navbar-dark ">
@@ -66,7 +68,10 @@ const Header=()=>{
       <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
       <i className="fa fa-user " />
      <CartIcon/>
-      <CartDropdown/>
+     {
+       hidden? null: <CartDropdown/>
+     }
+     
     </form>
   </div>
   </div>
@@ -75,4 +80,8 @@ const Header=()=>{
        </React.Fragment>
     )
 }
-export default Header
+
+const mapStateToProps=({cart:{hidden}})=>({
+  hidden
+})
+export default connect(mapStateToProps) (Header)

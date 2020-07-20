@@ -1,10 +1,11 @@
 import React from "react"
 import "./CustomButton.css"
 
-const CustomButton=({children})=>{
+const CustomButton=({children,inverted})=>{
+   
     return(
         <React.Fragment>
-            <button className="custom-button">
+            <button className={`${inverted ? 'inverted':''} custom-button`}>
                 {children}
             </button>
         </React.Fragment>

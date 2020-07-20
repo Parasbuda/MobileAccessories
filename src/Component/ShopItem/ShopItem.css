@@ -1,7 +1,16 @@
 .card{
     transition: all 0.2s ease-in-out;
+    position: relative;
 }
 .card:hover{
 
     transform: translateY(-10px);
+    opacity: 0.7;
+}
+.inverted{
+     width: 80%;
+      opacity: 0.8;
+      position: absolute;
+     top: 260px;
+     left:30px;
 }
