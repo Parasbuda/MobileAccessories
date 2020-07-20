@@ -7,7 +7,7 @@ import CartIcon from "../CartIcon/CartIcon"
 import CartDropdown from "../cartdropdown/CartDropdown"
 import {connect} from "react-redux"
 const Header=({hidden})=>{
-  console.log(hidden)
+ 
     return(
        <React.Fragment>
            <nav className="navbar navbar-expand-lg navbar-dark ">

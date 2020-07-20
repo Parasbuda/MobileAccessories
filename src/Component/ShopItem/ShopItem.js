@@ -1,8 +1,10 @@
 import React from "react"
 import "./ShopItem.css"
-import CustomButton from "../CustomButton/CustomButton"
+import {connect} from "react-redux"
+import {addItem} from "../../Redux/cart/cartActions"
 
-const ShopItem=({item})=>{
+
+const ShopItem=({item,addItem})=>{
     const {name,price,imageUrl}=item
     return(
       <React.Fragment>
@@ -16,7 +18,8 @@ const ShopItem=({item})=>{
                <span className="pl-2">{name}</span>
                 <span className="pl-5">${price}</span>
                 </div>
-                <CustomButton className="inverted" inverted>ADD TO CART </CustomButton>
+                <button  onClick={()=>addItem(item)}   className="inverted" >
+               ADD TO CART </button>
             </div>
             
         </div>
@@ -26,4 +29,8 @@ const ShopItem=({item})=>{
         
     )
 }
-export default ShopItem
+const matchDispatchToProps=dispatch=>({
+    addItem:item=>dispatch(addItem(item))
+})
+
+export default  connect(null,matchDispatchToProps) (ShopItem)
