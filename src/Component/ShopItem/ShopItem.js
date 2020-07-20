@@ -18,7 +18,7 @@ const ShopItem=({item,addItem})=>{
                <span className="pl-2">{name}</span>
                 <span className="pl-5">${price}</span>
                 </div>
-                <button  onClick={()=>addItem(item)}   className="inverted" >
+                <button  onClick={()=>{addItem(item)}}   className="inverted" >
                ADD TO CART </button>
             </div>
             
