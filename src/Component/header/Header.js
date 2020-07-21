@@ -6,6 +6,9 @@ import {Link} from "react-router-dom"
 import CartIcon from "../CartIcon/CartIcon"
 import CartDropdown from "../cartdropdown/CartDropdown"
 import {connect} from "react-redux"
+import {createStructuredSelector} from "reselect"
+import {selectCartHidden} from "../../Redux/cart/cartSelector"
+
 const Header=({hidden})=>{
  
     return(
@@ -81,7 +84,7 @@ const Header=({hidden})=>{
     )
 }
 
-const mapStateToProps=({cart:{hidden}})=>({
-  hidden
+const mapStateToProps=createStructuredSelector({
+  hidden:selectCartHidden
 })
 export default connect(mapStateToProps) (Header)
