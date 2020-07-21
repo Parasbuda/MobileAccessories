@@ -8,15 +8,15 @@ const ShopItem=({item,addItem})=>{
     const {name,price,imageUrl}=item
     return(
       <React.Fragment>
-        <div className="col-md-4 col-lg-3 col-sm-6 ">
+        <div className="col-md-4 col-lg-3 col-sm-6 col-xs-12 ">
             <div className="card shadow rounded  mb-5 " >
                 
               
                     <img  src={imageUrl} alt="product"/>
                    
                 <div className="card-footer  justify-content-between d-flex ">
-               <span className="pl-2">{name}</span>
-                <span className="pl-5">${price}</span>
+               <span >{name}</span>
+                <span className="pl-2">${price}</span>
                 </div>
                 <button  onClick={()=>{addItem(item)}}   className="inverted" >
                ADD TO CART </button>

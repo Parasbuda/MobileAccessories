@@ -14,7 +14,8 @@ const ShopOverview=({collections})=>{
                       
                        return(
                           
-                            <ShopPreview key={collection.id} items={collection.items} title={collection.title} />
+                            <ShopPreview key={collection.id} items={collection.items} title={collection.title}
+                            routeName={collection.routeName} />
                            
                     )
                        })

@@ -1,11 +1,15 @@
 import React, { Component } from 'react'
 import ShopOverview from "../../Component/ShopOverview/ShopOverview"
-
- const Shop=({collections})=> {
+import {Route} from "react-router-dom"
+import Category from "../Category/Category"
+import Error from "../Error/Error"
+ const Shop=({match})=> {
         return (
            
             <div className="shop-page">
-             <ShopOverview/>
+            <Route exact path={`${match.path}`} component={ShopOverview}/>
+            <Route path={`${match.path}/:categoryId`} component={Category}/>
+           
                </div>
         )
     }

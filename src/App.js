@@ -12,6 +12,7 @@ import Contact from "./Pages/Contact/Contact"
 import Blog from "./Pages/Blog/Blog"
 import Shop from "./Pages/Shop/Shop"
 import Checkout from "./Pages/Checkout/Checkout"
+import Error from "./Pages/Error/Error"
 class App extends React.Component {
   render(){
   return (
@@ -24,6 +25,7 @@ class App extends React.Component {
       <Route path="/blog" component={Blog}/>
       <Route path="/shop" component={Shop}/>
       <Route  path="/checkout" component={Checkout}/>
+      <Route component={Error}/>
       </Switch>
     </div>
   );

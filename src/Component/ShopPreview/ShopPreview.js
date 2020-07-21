@@ -6,7 +6,7 @@ import {withRouter} from"react-router-dom"
 
 
 
-const ShopPreview=({title,items,history})=> {
+const ShopPreview=({title,routeName,items,history})=> {
     
     return (
         <div className="shopPreview">
@@ -21,7 +21,7 @@ const ShopPreview=({title,items,history})=> {
                )
                    )
             }
-             <div className="card shadow rounded ml-5  mb-5 more" onClick={()=>history.push("/")} >
+             <div className="card shadow rounded ml-5  mb-5 more" onClick={()=>history.push(`/shop/${routeName}`)} >
                 
                 <img  src={addicon} alt="product"   />
                

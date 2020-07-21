@@ -48,8 +48,8 @@
       },
       {
         id: 8,
-        name: 'Wolf Cap',
-        imageUrl: 'https://i.ibb.co/1f2nWMM/wolf-cap.png',
+        name: "Red Beanie",
+        imageUrl: 'https://i.ibb.co/bLB646Z/red-beanie.png',
         price: 14
       },
       {
@@ -232,7 +232,7 @@
       },
       {
         id: 34,
-        name: 'Black & White Longsleeve',
+        name: 'Black & White ',
         imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
         price: 25
       },
@@ -264,8 +264,8 @@
   },
   {
     id: 6,
-    title: 'Mens',
-    routeName: 'mens',
+    title: 'Summer',
+    routeName: 'summer',
     items: [
       {
         id: 39,
@@ -281,7 +281,7 @@
       },
       {
         id: 41,
-        name: 'Black & White Longsleeve',
+        name: 'Black & White',
         imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
         price: 25
       },
@@ -293,7 +293,7 @@
       },
       {
         id: 43,
-        name: 'Jean Long Sleeve',
+        name: 'Jean Long',
         imageUrl: 'https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png',
         price: 40
       },
@@ -313,8 +313,8 @@
   },
   {
     id: 7,
-    title: 'Mens',
-    routeName: 'mens',
+    title: 'Winter',
+    routeName: 'winter',
     items: [
       {
         id: 46,
@@ -330,7 +330,7 @@
       },
       {
         id: 48,
-        name: 'Black & White Longsleeve',
+        name: 'Black & White ',
         imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
         price: 25
       },
