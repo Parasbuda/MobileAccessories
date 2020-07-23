@@ -13,13 +13,14 @@ import Blog from "./Pages/Blog/Blog"
 import Shop from "./Pages/Shop/Shop"
 import Checkout from "./Pages/Checkout/Checkout"
 import Error from "./Pages/Error/Error"
+import Home from "./Pages/Home/Home"
 class App extends React.Component {
   render(){
   return (
     <div >
     <Header/>
     <Switch>
-  <Route exact path="/" component={()=><div>Hlw from Home</div>}/>
+  <Route exact path="/" component={Home}/>
       <Route path="/about" component={About}/>
       <Route path="/contact" component={Contact}/>
       <Route path="/blog" component={Blog}/>

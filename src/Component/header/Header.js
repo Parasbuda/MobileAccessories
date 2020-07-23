@@ -19,7 +19,7 @@ const Header=({hidden})=>{
   <div className="navbar-brand">
     <Link to="/"><img src={logo} alt="logo" className="logo"/></Link>
     </div>
-  <span className="navbar-text">Merachi Tech</span>
+  <Link to="/"><span className="navbar-text">Merachi Tech</span></Link>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>

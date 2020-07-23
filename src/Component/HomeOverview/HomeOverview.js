@@ -1,20 +1,20 @@
 import React from "react"
-import  "./ShopOverview.css"
+import  "./HomeOverview.css"
 import {connect} from "react-redux"
 import {createStructuredSelector} from "reselect"
 import ShopPreview from "../ShopPreview/ShopPreview"
-import {selectCollections} from "../../Redux/Shop/shopSelector"
+import {selectOthers} from "../../Redux/Shop/shopSelector"
 
 
-const ShopOverview=({collections})=>{
+const HomeOverview=({others})=>{
     return(
         <div className="shop-overview">
                {
-                   collections.map(collection=>{
+                   others.map(other=>{
                       
                        return(
                           
-                            <ShopPreview key={collection.id} items={collection.items} title={collection.title}
+                            <ShopPreview key={other.id} items={other.items} title={other.title}
                              />
                            
                     )
@@ -25,7 +25,7 @@ const ShopOverview=({collections})=>{
     )
 }
 const mapStateToProps=createStructuredSelector({
-    collections:selectCollections
+    others:selectOthers
    
 })
-export default connect(mapStateToProps) (ShopOverview)
+export default connect(mapStateToProps) (HomeOverview)
