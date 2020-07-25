@@ -4,6 +4,7 @@ import {Route} from "react-router-dom"
 import HomeCategory from "../Category/Category"
 import Slider from "../../Component/Slider/Slider"
 import Jumbotron from '../../Component/Jumbotron/Jumbotron'
+
  const Home=({match})=> {
         return (
            <React.Fragment>
@@ -14,6 +15,7 @@ import Jumbotron from '../../Component/Jumbotron/Jumbotron'
             <Route  path={`${match.path}/:categoryId`} component={HomeCategory}/>
            
                </div>
+              
                </React.Fragment>
         )
     }

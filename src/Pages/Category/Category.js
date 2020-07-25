@@ -9,7 +9,7 @@ const Category=({category})=>{
         <div className="category">
             <h2 className="title">{title}</h2>
             <div className="items">
-                <div className="container-fluid">
+                <div className="container">
                     <div className="row mt-2">
                     {
                     items.map(item=><ShopItem key={item.id} item={item}/>)

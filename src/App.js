@@ -14,6 +14,8 @@ import Shop from "./Pages/Shop/Shop"
 import Checkout from "./Pages/Checkout/Checkout"
 import Error from "./Pages/Error/Error"
 import Home from "./Pages/Home/Home"
+import Footer from "./Component/Footer/Footer"
+import ProductDetail from './Pages/Detail/ProductDetail';
 class App extends React.Component {
   render(){
   return (
@@ -26,8 +28,10 @@ class App extends React.Component {
       <Route path="/blog" component={Blog}/>
       <Route path="/shop" component={Shop}/>
       <Route  path="/checkout" component={Checkout}/>
+      <Route path="/detail" component={ProductDetail}/>
       <Route component={Error}/>
       </Switch>
+      <Footer/>
     </div>
   );
 }
