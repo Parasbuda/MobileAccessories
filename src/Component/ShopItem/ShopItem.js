@@ -8,7 +8,7 @@ const ShopItem=({item,addItem})=>{
     const {name,price,imageUrl}=item
     return(
       <React.Fragment>
-        <div className="col-md-4 col-lg-3 col-sm-6 col-xs-12 ">
+        <div className="col-md-4 col-lg-4 col-sm-6 col-xs-12 ">
             <div className="card shadow rounded  mb-5 " >
                 
               

@@ -14,7 +14,7 @@ const Header=({hidden})=>{
  
     return(
        <React.Fragment>
-           <nav className="navbar navbar-expand-lg navbar-dark ">
+           <nav className="navbar navbar-expand-lg navbar-dark  ">
              <div className="container-fluid">
   <div className="navbar-brand">
     <Link to="/"><img src={logo} alt="logo" className="logo"/></Link>

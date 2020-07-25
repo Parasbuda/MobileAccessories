@@ -2,11 +2,11 @@ import React from 'react'
 import "./ShopPreview.css"
 import ShopItem from "../ShopItem/ShopItem"
 
-import {withRouter} from"react-router-dom"
 
 
 
-const ShopPreview=({title,routeName,items,history})=> {
+
+const ShopPreview=({title,items})=> {
     
     return (
         <div className="shopPreview">
@@ -15,7 +15,7 @@ const ShopPreview=({title,routeName,items,history})=> {
                 <div className="row mt-2">
 
             {
-               items.filter((item,idx)=>idx<4).map(item=>(
+               items.splice(items.length-3).map(item=>(
                   
                 <ShopItem key={item.id} item={item}/>
                )
@@ -29,4 +29,4 @@ const ShopPreview=({title,routeName,items,history})=> {
     )
 }
 
-export default withRouter(ShopPreview)
+export default ShopPreview
